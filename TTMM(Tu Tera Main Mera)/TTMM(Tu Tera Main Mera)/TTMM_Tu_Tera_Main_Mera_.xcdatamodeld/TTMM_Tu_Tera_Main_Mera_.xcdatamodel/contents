@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Event" representedClassName="Event" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="eventPartners" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="EventPartner" inverseName="event" inverseEntity="EventPartner" syncable="YES"/>
+        <relationship name="expenses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Expense" inverseName="events" inverseEntity="Expense" syncable="YES"/>
+    </entity>
+    <entity name="EventPartner" representedClassName="EventPartner" syncable="YES" codeGenerationType="class">
+        <attribute name="eventPartnerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventPartnerPhoto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownsOrLoaned" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="event" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="eventPartners" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Expense" representedClassName="Expense" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="contributer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expenseName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="events" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="expenses" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Partner" representedClassName="Partner" syncable="YES" codeGenerationType="class">
+        <attribute name="partnerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-135" positionY="-39" width="128" height="120"/>
+        <element name="EventPartner" positionX="-128" positionY="273" width="128" height="105"/>
+        <element name="Expense" positionX="234" positionY="264" width="128" height="105"/>
+        <element name="Partner" positionX="216" positionY="-27" width="128" height="75"/>
+    </elements>
+</model>

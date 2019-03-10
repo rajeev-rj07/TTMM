@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174CD8071FDD1480007ED69B /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174CD8061FDD1480007ED69B /* AddExpenseViewController.swift */; };
+		17A8DBFA1FDD076A00D1BA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8DBF91FDD076A00D1BA6D /* AppDelegate.swift */; };
+		17A8DBFF1FDD076A00D1BA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A8DBFD1FDD076A00D1BA6D /* Main.storyboard */; };
+		17A8DC021FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17A8DC001FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodeld */; };
+		17A8DC041FDD076A00D1BA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A8DC031FDD076A00D1BA6D /* Assets.xcassets */; };
+		17A8DC071FDD076A00D1BA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A8DC051FDD076A00D1BA6D /* LaunchScreen.storyboard */; };
+		17A8DC161FDD0B9C00D1BA6D /* AllPartnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8DC111FDD0B9C00D1BA6D /* AllPartnersViewController.swift */; };
+		17A8DC171FDD0B9C00D1BA6D /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8DC121FDD0B9C00D1BA6D /* EventDetailsViewController.swift */; };
+		17A8DC181FDD0B9C00D1BA6D /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8DC131FDD0B9C00D1BA6D /* EventsViewController.swift */; };
+		17A8DC191FDD0B9C00D1BA6D /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8DC141FDD0B9C00D1BA6D /* NewEventViewController.swift */; };
+		17A8DC1A1FDD0B9C00D1BA6D /* NewPartnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8DC151FDD0B9C00D1BA6D /* NewPartnerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174CD8061FDD1480007ED69B /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		17A8DBF61FDD076A00D1BA6D /* TTMM(Tu Tera Main Mera).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTMM(Tu Tera Main Mera).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A8DBF91FDD076A00D1BA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17A8DBFE1FDD076A00D1BA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17A8DC011FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTMM_Tu_Tera_Main_Mera_.xcdatamodel; sourceTree = "<group>"; };
+		17A8DC031FDD076A00D1BA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A8DC061FDD076A00D1BA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17A8DC081FDD076A00D1BA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A8DC111FDD0B9C00D1BA6D /* AllPartnersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPartnersViewController.swift; sourceTree = "<group>"; };
+		17A8DC121FDD0B9C00D1BA6D /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		17A8DC131FDD0B9C00D1BA6D /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		17A8DC141FDD0B9C00D1BA6D /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		17A8DC151FDD0B9C00D1BA6D /* NewPartnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPartnerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A8DBF31FDD076A00D1BA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A8DBED1FDD076A00D1BA6D = {
+			isa = PBXGroup;
+			children = (
+				17A8DBF81FDD076A00D1BA6D /* TTMM(Tu Tera Main Mera) */,
+				17A8DBF71FDD076A00D1BA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17A8DBF71FDD076A00D1BA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A8DBF61FDD076A00D1BA6D /* TTMM(Tu Tera Main Mera).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A8DBF81FDD076A00D1BA6D /* TTMM(Tu Tera Main Mera) */ = {
+			isa = PBXGroup;
+			children = (
+				17A8DBF91FDD076A00D1BA6D /* AppDelegate.swift */,
+				17A8DC0E1FDD0A8300D1BA6D /* Model */,
+				17A8DC0F1FDD0A8900D1BA6D /* View */,
+				17A8DC101FDD0A9100D1BA6D /* Controller */,
+				17A8DC031FDD076A00D1BA6D /* Assets.xcassets */,
+				17A8DC081FDD076A00D1BA6D /* Info.plist */,
+				17A8DC001FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodeld */,
+			);
+			path = "TTMM(Tu Tera Main Mera)";
+			sourceTree = "<group>";
+		};
+		17A8DC0E1FDD0A8300D1BA6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		17A8DC0F1FDD0A8900D1BA6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17A8DBFD1FDD076A00D1BA6D /* Main.storyboard */,
+				17A8DC051FDD076A00D1BA6D /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		17A8DC101FDD0A9100D1BA6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				174CD8061FDD1480007ED69B /* AddExpenseViewController.swift */,
+				17A8DC111FDD0B9C00D1BA6D /* AllPartnersViewController.swift */,
+				17A8DC121FDD0B9C00D1BA6D /* EventDetailsViewController.swift */,
+				17A8DC131FDD0B9C00D1BA6D /* EventsViewController.swift */,
+				17A8DC141FDD0B9C00D1BA6D /* NewEventViewController.swift */,
+				17A8DC151FDD0B9C00D1BA6D /* NewPartnerViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A8DBF51FDD076A00D1BA6D /* TTMM(Tu Tera Main Mera) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A8DC0B1FDD076A00D1BA6D /* Build configuration list for PBXNativeTarget "TTMM(Tu Tera Main Mera)" */;
+			buildPhases = (
+				17A8DBF21FDD076A00D1BA6D /* Sources */,
+				17A8DBF31FDD076A00D1BA6D /* Frameworks */,
+				17A8DBF41FDD076A00D1BA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTMM(Tu Tera Main Mera)";
+			productName = "TTMM(Tu Tera Main Mera)";
+			productReference = 17A8DBF61FDD076A00D1BA6D /* TTMM(Tu Tera Main Mera).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A8DBEE1FDD076A00D1BA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Zenarc;
+				TargetAttributes = {
+					17A8DBF51FDD076A00D1BA6D = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17A8DBF11FDD076A00D1BA6D /* Build configuration list for PBXProject "TTMM(Tu Tera Main Mera)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A8DBED1FDD076A00D1BA6D;
+			productRefGroup = 17A8DBF71FDD076A00D1BA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A8DBF51FDD076A00D1BA6D /* TTMM(Tu Tera Main Mera) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A8DBF41FDD076A00D1BA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A8DC071FDD076A00D1BA6D /* LaunchScreen.storyboard in Resources */,
+				17A8DC041FDD076A00D1BA6D /* Assets.xcassets in Resources */,
+				17A8DBFF1FDD076A00D1BA6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A8DBF21FDD076A00D1BA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A8DC171FDD0B9C00D1BA6D /* EventDetailsViewController.swift in Sources */,
+				174CD8071FDD1480007ED69B /* AddExpenseViewController.swift in Sources */,
+				17A8DC021FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodeld in Sources */,
+				17A8DBFA1FDD076A00D1BA6D /* AppDelegate.swift in Sources */,
+				17A8DC1A1FDD0B9C00D1BA6D /* NewPartnerViewController.swift in Sources */,
+				17A8DC161FDD0B9C00D1BA6D /* AllPartnersViewController.swift in Sources */,
+				17A8DC191FDD0B9C00D1BA6D /* NewEventViewController.swift in Sources */,
+				17A8DC181FDD0B9C00D1BA6D /* EventsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17A8DBFD1FDD076A00D1BA6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A8DBFE1FDD076A00D1BA6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17A8DC051FDD076A00D1BA6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A8DC061FDD076A00D1BA6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A8DC091FDD076A00D1BA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17A8DC0A1FDD076A00D1BA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17A8DC0C1FDD076A00D1BA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TTMM(Tu Tera Main Mera)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zenarc.TTMM-Tu-Tera-Main-Mera-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		17A8DC0D1FDD076A00D1BA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TTMM(Tu Tera Main Mera)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zenarc.TTMM-Tu-Tera-Main-Mera-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A8DBF11FDD076A00D1BA6D /* Build configuration list for PBXProject "TTMM(Tu Tera Main Mera)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A8DC091FDD076A00D1BA6D /* Debug */,
+				17A8DC0A1FDD076A00D1BA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A8DC0B1FDD076A00D1BA6D /* Build configuration list for PBXNativeTarget "TTMM(Tu Tera Main Mera)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A8DC0C1FDD076A00D1BA6D /* Debug */,
+				17A8DC0D1FDD076A00D1BA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17A8DC001FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17A8DC011FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodel */,
+			);
+			currentVersion = 17A8DC011FDD076A00D1BA6D /* TTMM_Tu_Tera_Main_Mera_.xcdatamodel */;
+			path = TTMM_Tu_Tera_Main_Mera_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17A8DBEE1FDD076A00D1BA6D /* Project object */;
+}
